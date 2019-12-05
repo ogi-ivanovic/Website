@@ -24,6 +24,7 @@
     <link href="css/main.css" rel="stylesheet" type="text/css">
     <link href="css/responsive.css" rel="stylesheet" type="text/css">
     <link href="css/skills.css" rel="stylesheet" type="text/css">
+    <link href="css/experience.css" rel="stylesheet" type="text/css">
 </head>
 
 <body id="top" data-spy="scroll" data-target="#menu_items">
@@ -61,9 +62,6 @@
                             </li>
                             <li class="nav-item">
                                 <a href="#projects" class="menu_item nav-link slide-horizontal" data-splitting>Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#education" class="menu_item nav-link slide-horizontal" data-splitting>Education</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#experience" class="menu_item nav-link slide-horizontal" data-splitting>Experience</a>
@@ -121,15 +119,10 @@
                                     <h4>UI / UX Designer &amp; Web Developer. Based in San Francisco. I'm Code &amp; Design things for web.</h4>
                                     <img class="zigzag" src="img/zigzag.svg" alt="">
                                     <p class="about_desc"><span>I am a professional web designer from San Francisco.</span> Consectetur adipisicing elit olore iusto cupiditate possimus amet aliquam qui voluptatem. Animi perferendis Minima nemo blanditiis rem odio provident delectus ab magni omnis optio. Architecto debitis mollitia itaque eius accusamu.</p>
-                                    <!-- start social links -->
-                                    <ul class="social_links">
-                                        <li><a href="#"><span class="ion-social-twitter"></span></a></li>
-                                        <li><a href="#"><span class="ion-social-instagram-outline"></span></a></li>
-                                        <li><a href="#"><span class="ion-social-linkedin"></span></a></li>
-                                        <li><a href="#"><span class="ion-social-facebook"></span></a></li>
-                                        <li><a href="#"><span class="ion-social-dribbble-outline"></span></a></li>
-                                    </ul>
-                                    <!-- end social links -->
+                                    <!-- view resume button  -->
+                                    <div class="col-lg-12 resume">
+                                        <a class="button slide-vertical" data-splitting href="https://github.com/ogi-ivanovic" target="_blank">Resume</a>
+                                    </div>
                                 </div>
                                 <!-- end about details -->
                             </div>
@@ -184,6 +177,7 @@
                 <!-- end skills wrapper -->
 
                 <!-- start projects wrapper -->
+                <!-- MAKE GIFS FOR ONES THAT NEED IT-->
                 <div id="projects" class="work_wrapper">
                     <div class="row justify-content-center">
                         <div class="col-lg-10">
@@ -230,6 +224,17 @@
                                     </div>
                                 </div>
                                 <!-- work single item  -->
+                                <div class="col-lg-4 col-md-6 col-sm-6 algo">
+                                    <div class="work_single_item">
+                                        <img class="img-fluid" src="img/projects/project-euler.jpg" alt="">
+                                        <div class="work_info">
+                                            <h6 title="Green Lamp Holder">Project Euler</h6>
+                                            <p>16 June 2018</p>
+                                            <a class="ajax-popup-link" href="./work-details-4.html"><span class="ion-android-expand"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- work single item  -->
                                 <div class="col-lg-4 col-md-6 col-sm-6 game">
                                     <div class="work_single_item">
                                         <img class="img-fluid" src="img/work_03.gif" alt="">
@@ -237,17 +242,6 @@
                                             <h6 title="Green Lamp Holder">Chess-AI</h6>
                                             <p>21 July 2018</p>
                                             <a class="ajax-popup-link" href="./work-details-3.html"><span class="ion-android-expand"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- work single item  -->
-                                <div class="col-lg-4 col-md-6 col-sm-6 algo">
-                                    <div class="work_single_item">
-                                        <img class="img-fluid" src="img/work_04.jpg" alt="">
-                                        <div class="work_info">
-                                            <h6 title="Green Lamp Holder">Project Euler</h6>
-                                            <p>16 June 2018</p>
-                                            <a class="ajax-popup-link" href="./work-details-4.html"><span class="ion-android-expand"></span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -298,7 +292,7 @@
                                 <!-- work single item  -->
                                 <div class="col-lg-4 col-md-6 col-sm-6 game">
                                     <div class="work_single_item">
-                                        <img class="img-fluid" src="img/work_05.gif" alt="">
+                                        <img class="img-fluid" src="img/projects/cards.jpg" alt="">
                                         <div class="work_info">
                                             <h6 title="Olive Oil Bottle">Euchre</h6>
                                             <p>19 April 2018</p>
@@ -316,113 +310,74 @@
                 </div>
                 <!-- end projects wrapper -->
 
-                <!-- start counter wrapper -->
-                <div class="counter">
-                    <div class="row justify-content-center text-center">
-                        <div class="col-lg-10">
-                            <div class="row">
-                                <div class="col-6 col-sm-6 col-md-3">
-                                    <i class="mbri-user"></i>
-                                    <h4>Happy Clients</h4>
-                                    <span class="counter-number">198</span>
-                                </div>
-                                <div class="col-6 col-sm-6 col-md-3">
-                                    <i class="mbri-code"></i>
-                                    <h4>Project Done</h4>
-                                    <span class="counter-number">375</span>
-                                </div>
-                                <div class="col-6 col-sm-6 col-md-3">
-                                    <i class="mbri-hot-cup"></i>
-                                    <h4>Coffee Cups</h4>
-                                    <span class="counter-number">2652</span>
-                                </div>
-                                <div class="col-6 col-sm-6 col-md-3">
-                                    <i class="mbri-cust-feedback"></i>
-                                    <h4>Total Review</h4>
-                                    <span class="counter-number">350</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end counter wrapper -->
-
-                <!-- start testimonials wrapper -->
-                <div id="testimonial" class="testimonials">
+                <!-- start experience wrapper -->
+                <div id="experience" class="services">
                     <div class="row justify-content-center">
-                        <div class="col-md-8">
+                        <div class="col-lg-10">
                             <!-- section title -->
                             <div class="text-center">
-                                <h2 class="section_title">Testimonials</h2>
+                                <h2 class="section_title">Experience</h2>
                             </div>
-                            <div class="owl-carousel testimonial_slider">
-                                <!-- start testimonial single item -->
-                                <div class="testimonial_single_item">
-                                    <img src="img/testimonials/test_01.jpg" alt="photo">
-                                    <p>Lorem ipsum dolor sit amet omnis consectetur adipisicing elit empora quia forem ipsum dolorsiempora aspernatur dolore, sapiente quidem sequi non tenetur harum, nihil quis beatae rerum ipsa nemo quae voluptate, repellendus nostrum debitis velit nisi.</p>
-                                    <h4>Keven Feil</h4>
-                                    <span>Founder - Purano Inc.</span>
+                                
+                            <!-- start experience items -->
+                            <div class="container___">
+                                <div class="timeline-block___ timeline-block-right___">
+                                    <div class="marker___"></div>
+                                    <div class="timeline-content___">
+                                        <h3>Carbonite Inc.</h3>
+                                        <h5>Software Engineer</h5>
+                                        <span>Sep - Dec 2019</span>
+                                        <p>Did code stuff</p>
+                                        <p>Was very fun</p>
+                                        <p>Did code stuff</p>
+                                    </div>
                                 </div>
-                                <!-- end testimonial single item -->
-                                <!-- start testimonial single item -->
-                                <div class="testimonial_single_item">
-                                    <img src="img/testimonials/test_02.jpg" alt="photo">
-                                    <p>Lorem ipsum dolor sit amet omnis consectetur adipisicing elit empora quia forem ipsum dolorsiempora aspernatur dolore, sapiente quidem sequi non tenetur harum, nihil quis beatae rerum ipsa nemo quae voluptate, repellendus nostrum debitis velit nisi.</p>
-                                    <h4>Dylan Moore</h4>
-                                    <span>CEO - Notun Inc.</span>
+                    
+                                <div class="timeline-block___ timeline-block-left___">
+                                    <div class="marker___"></div>
+                                    <div class="timeline-content___">
+                                        <h3>Nokia</h3>
+                                        <h5>Software Developer</h5>
+                                        <span>Jan - Apr 2019</span>
+                                        <p>Did code stuff with the Pss product into production code</p>
+                                        <p>Was very fun andhad a great tie with all of my friends making projects</p>
+                                        <p>Did code stuff and yup this is just a test, on sim env</p>
+                                    </div>
                                 </div>
-                                <!-- end testimonial single item -->
-                                <!-- start testimonial single item -->
-                                <div class="testimonial_single_item">
-                                    <img src="img/testimonials/test_03.jpg" alt="photo">
-                                    <p>Lorem ipsum dolor sit amet omnis consectetur adipisicing elit empora quia forem ipsum dolorsiempora aspernatur dolore, sapiente quidem sequi non tenetur harum, nihil quis beatae rerum ipsa nemo quae voluptate, repellendus nostrum debitis velit nisi.</p>
-                                    <h4>John Dio</h4>
-                                    <span>Founder - Alada Inc.</span>
+                    
+                                 <div class="timeline-block___ timeline-block-right___">
+                                    <div class="marker___"></div>
+                                    <div class="timeline-content___">
+                                        <h3>University of Waterloo</h3>
+                                        <h5>Learning Support Representative</h5>
+                                        <span>May - Aug 2018</span>
+                                        <p>Did code stuff</p>
+                                        <p>Was very fun</p>
+                                        <p>Did code stuff</p>
+                                    </div>
                                 </div>
-                                <!-- end testimonial single item -->
                             </div>
+                            <!-- end experience items -->
                         </div>
                     </div>
                 </div>
-                <!-- end testimonials wrapper -->
-
-                <!-- start clients wrapper -->
-                <div class="clients">
-                    <div class="row justify-content-center text-center">
-                        <div class="col-lg-10 client_items">
-                            <!-- section title -->
-                            <h2 class="section_title">Clients</h2>
-                            <div class="row no-gutters">
-                                <div class="col">
-                                    <img src="img/brand/brand_01.png" alt="Brand_01">
-                                    <img src="img/brand/brand_02.png" alt="Brand_02">
-                                    <img src="img/brand/brand_03.png" alt="Brand_03">
-                                    <img src="img/brand/brand_04.png" alt="Brand_04">
-                                    <img src="img/brand/brand_05.png" alt="Brand_05">
-                                    <img src="img/brand/brand_06.png" alt="Brand_06">
-                                    <img src="img/brand/brand_07.png" alt="Brand_07">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end clients wrapper -->
+                <!-- end experience wrapper -->
 
                 <!-- start contact wrapper -->
                 <div id="contact" class="contact_wrapper">
                     <div class="text-center">
-                        <h2 class="section_title">Drop a line</h2>
+                        <h2 class="section_title">Contact Me</h2>
                     </div>
                     <div class="row justify-content-center">
                         <!-- start contact info ( email - phone) -->
                         <div class="col-lg-3 col-md-12">
                             <div class="contact_item">
                                 <h5>Phone</h5>
-                                <p>+22-021-8888-11</p>
+                                <p>+1 519 496 5291</p>
                             </div>
                             <div class="contact_item">
                                 <h5>Email</h5>
-                                <p>sojonislam60@gmail.com</p>
+                                <p>ogiivano99@gmail.com</p>
                             </div>
                         </div>
                         <!-- end contact info ( email - phone) -->
@@ -443,7 +398,7 @@
                                     </div>
                                     <div class="col-md-7">
                                         <!-- input field for MESSAGE -->
-                                        <textarea class="input_field required" name="message" placeholder="Tell Me About Your Query."></textarea>
+                                        <textarea class="input_field required" name="message" placeholder=". . ."></textarea>
                                     </div>
                                 </div>
                                 <div class="row">
