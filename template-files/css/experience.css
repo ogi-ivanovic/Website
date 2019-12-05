@@ -83,20 +83,15 @@
  
  .timeline-content___ h3 {
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     font-size: 25px;
     font-weight: 400;
  }
 
  .timeline-content___ h5 {
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
     color: white;
- }
- 
- .timeline-content___ span {
-    font-size: 15px;
-    color: #B0B0B0;
  }
  
  .timeline-content___ p {
@@ -104,8 +99,13 @@
     line-height: 1.5em;
     word-spacing: 1px;
     color: #B0B0B0;
+    margin-top: 3px;
  }
- 
+
+ .job_date {
+    font-size: 15px;
+    color: white;
+ }
  
  @media screen and (max-width: 768px) {
     .container___:before {
