@@ -1,0 +1,61 @@
+.formspree-container {
+    width: 65%;
+}
+
+.formspree {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formspree h4 {
+    font-weight: 100;
+}
+
+.fomrspree-input {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.formspree .button {
+    margin-top: 0;
+    padding-bottom: 8px;
+    align-self: center;
+
+    border: 0px solid red;
+}
+
+.formspree body {
+    height: 160px;
+}
+
+.formspree textarea {
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.formspreex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.fomrspree-inputx {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
