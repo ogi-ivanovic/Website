@@ -32,13 +32,11 @@
     height: auto;
 }
 
-
 .sendbuttoncontainer {
-    border: 1px solid blue;
+    margin-top: 30px;
 }
 
 .sendbutton {
-    border: 1px solid green;
     text-align: center;
 }
 

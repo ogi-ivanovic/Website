@@ -43,7 +43,7 @@ li.c:after {
 
 @keyframes c {
     to {
-        width: 90%;
+        width: 95%;
     }
 }
 
@@ -53,7 +53,7 @@ li.python:after {
 
 @keyframes python {
     to {
-        width: 85%;
+        width: 90%;
     }
 }
 
@@ -63,7 +63,7 @@ li.lisp:after {
 
 @keyframes lisp {
     to {
-        width: 75%;
+        width: 80%;
     }
 }
 
@@ -73,7 +73,7 @@ li.java:after {
 
 @keyframes java {
     to {
-        width: 65%;
+        width: 70%;
     }
 }
 
@@ -83,7 +83,7 @@ li.html:after {
 
 @keyframes html {
     to {
-        width: 60%;
+        width: 65%;
     }
 }
 
@@ -93,7 +93,7 @@ li.javascript:after {
 
 @keyframes javascript {
     to {
-        width: 55%;
+        width: 60%;
     }
 }
 
