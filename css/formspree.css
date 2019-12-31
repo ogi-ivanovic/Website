@@ -22,8 +22,6 @@
     margin-top: 0;
     padding-bottom: 8px;
     align-self: center;
-
-    border: 0px solid red;
 }
 
 .formspree body {
@@ -35,7 +33,14 @@
 }
 
 
+.sendbuttoncontainer {
+    border: 1px solid blue;
+}
 
+.sendbutton {
+    border: 1px solid green;
+    text-align: center;
+}
 
 
 
