@@ -39,26 +39,3 @@
 .sendbutton {
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-.formspreex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-
-}
-
-.fomrspree-inputx {
-    width: 100%;
-    margin-top: 5px;
-    margin-bottom: 20px;
-}
