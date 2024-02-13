@@ -63,7 +63,7 @@ li.lisp:after {
 
 @keyframes lisp {
     to {
-        width: 80%;
+        width: 85%;
     }
 }
 
@@ -73,7 +73,7 @@ li.java:after {
 
 @keyframes java {
     to {
-        width: 70%;
+        width: 85%;
     }
 }
 
@@ -83,7 +83,7 @@ li.html:after {
 
 @keyframes html {
     to {
-        width: 65%;
+        width: 75%;
     }
 }
 
@@ -93,7 +93,7 @@ li.javascript:after {
 
 @keyframes javascript {
     to {
-        width: 60%;
+        width: 70%;
     }
 }
 
