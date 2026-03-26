@@ -47,6 +47,26 @@ li.c:after {
     }
 }
 
+li.go:after {
+    animation-name: go;
+}
+
+@keyframes go {
+    to {
+        width: 95%;
+    }
+}
+
+li.dbt:after {
+    animation-name: dbt;
+}
+
+@keyframes dbt {
+    to {
+        width: 90%;
+    }
+}
+
 li.python:after {
     animation-name: python;
 }
